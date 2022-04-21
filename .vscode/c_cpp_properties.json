@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x86",
+            "compilerArgs": [
+                "-g ",
+                "-fexpensive-optimizations ",
+                "-flto ",
+                "-fpermissive ",
+                "-Wno-narrowing ",
+                "-DUNICODE ",
+                "-lstdc++fs ",
+                "-std=c++17"
+            ]
+        }
+    ],
+    "version": 4
+}
